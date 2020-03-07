@@ -1,0 +1,63 @@
+<html>
+
+<head>
+
+    <title>Calculadora</title>
+
+    <meta charset="utf-8"/>
+
+</head>
+
+<body>
+
+    <form name = "calculadora">
+
+        <table border = "1" widht = "100" aling = "center">
+        
+        <tr>
+        <td colspan = "4"> <input type = "text" name = "tela"></td>
+        </tr>
+            
+        <tr>
+
+
+            <td><input type = "button" value = "7" onClick = "tela.value+='7'"></td>
+            <td><input type = "button" value = "8" onClick = "tela.value+='8'"></td>
+            <td><input type = "button" value = "9" onClick = "tela.value+='9'"></td>
+            <td><input type = "button" value = "+" onClick = "tela.value+='+'"></td>
+
+        </tr>
+
+        <tr>
+
+
+            <td><input type = "button" value = "4" onClick = "tela.value+='4'"></td>
+            <td><input type = "button" value = "5" onClick = "tela.value+='5'"></td>
+            <td><input type = "button" value = "6" onClick = "tela.value+='6'"></td>
+            <td><input type = "button" value = "-" onClick = "tela.value+='-'"></td>
+
+        </tr>
+
+        <tr>
+
+
+            <td><input type = "button" value = "1" onClick = "tela.value+='1'"></td>
+            <td><input type = "button" value = "2" onClick = "tela.value+='2'"></td>
+            <td><input type = "button" value = "3" onClick = "tela.value+='3'"></td>
+            <td><input type = "button" value = "x" onClick = "tela.value+='*'"></td>
+
+        </tr>
+
+        <tr>
+
+
+            <td><input type = "button" value = "C" onClick = "tela.value+=''"></td>
+            <td><input type = "button" value= "0"  onClick = "tela.value+='0'"></td>
+            <td><input type = "button" value= "="  onClick = "tela.value=eval(tela.value)"></td>
+            <td><input type = "button" value = "/" onClick = "tela.value+='/'"></td>
+
+        </tr>
+
+</body>
+
+</html>
